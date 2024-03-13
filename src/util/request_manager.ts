@@ -43,9 +43,10 @@ export class RequestManager {
     }
 
     normalizeSpriteURL(url: string, format: string, extension: string): string {
-        const urlObject = parseUrl(url);
+        /* const urlObject = parseUrl(url);
         urlObject.path += `${format}${extension}`;
-        return formatUrl(urlObject);
+        return formatUrl(urlObject); */
+		return `${url}${format}${extension}`;
     }
 
     setTransformRequest(transformRequest: RequestTransformFunction) {

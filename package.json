@@ -1,5 +1,5 @@
 {
-  "name": "maplibre-gl",
+  "name": "@vitalyvaryvdin/maplibre-gl",
   "description": "BSD licensed community fork of mapbox-gl, a WebGL interactive maps library",
   "version": "4.1.0",
   "main": "dist/maplibre-gl.js",
@@ -189,5 +189,8 @@
   "engines": {
     "npm": ">=8.1.0",
     "node": ">=16.14.0"
+  },
+  "publishConfig": {
+	"registry": "https://github.com/VitalyVaryvdin/maplibre-gl-js.git"
   }
 }
